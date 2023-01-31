@@ -1,8 +1,3 @@
-"""
- Description:  Program that gathers inputted information to form and sort a list of products,
- with the ability to search for a product in the list if wanted.
-
-"""
 
 # Function that returns the number of products wanted in list
 def get_number():
@@ -70,36 +65,3 @@ def main():
             else:
                 print("Not Found")
 
-# calls main function
-main()
-
-"""--------------Sample Run(1)---------------
-
-Enter the number of products you would like to add.
-Enter 0 (zero) if you do not wish to add products:g
-Incorrect date type entered!
-Enter the number of products you would like to add.
-Enter 0 (zero) if you do not wish to add products:-5
-Incorrect Value entered!
-Enter the number of products you would like to add.
-Enter 0 (zero) if you do not wish to add products:3
-Please enter the product name: Red
-Please enter the product name: White
-Please enter the product name: Blue
-Unordered list
---------------------
-Red
-White
-Blue
-
-Ordered list
---------------------
-Blue
-Red
-White
-
-Enter a product's name, or N if you do not wish to enter a product's name: Red
-Red is one of the product's names.
-The position is 1
-
---------------------End Run-----------------"""
