@@ -49,8 +49,6 @@ def main():
         # For loop that will insert inputted products into list
         for i in range(max_size):
             products.insert(i, input("Please enter the product name: "))
-        print("Unordered list\n--------------------")
-        display_products(products)
         products = sort_products(products)
         print("\nOrdered list\n--------------------")
         display_products(products)
@@ -61,7 +59,7 @@ def main():
         else:
             index = search_products(products, name)
             if index >= 0:
-                print("{} is one of the product's names.\nThe position is {}".format(name, index))
+                print("{} is one of the product's names.\nIt's position within the list is {}".format(name, index))
             else:
                 print("Not Found")
 
